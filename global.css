@@ -1,4 +1,32 @@
 nav {
-flex-direction: row;
-
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
 }
+
+nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+nav > a:hover {
+    color: c93814
+}
+
+footer {
+    color: gray;
+    position:absolute;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+margin-top: 70px;
