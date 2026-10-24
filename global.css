@@ -52,6 +52,11 @@ body {
 
 #subtitolindex {
     margin-top: -10px;
+    color: white;
+}
+
+h2 {
+    color: c93814;
 }
 
 button {
@@ -63,11 +68,12 @@ button {
     border-radius: 10px;
 }
 
-span {
-    color: c93814;
-    display: flexbox;
-    white-space: wrap;
-    flex-wrap: wrap;
+#fictici {
+    color: black;
+    border: 10px solid;
+    border-radius: 10px;
+    border-color: grey;
+    background-color: grey;
 }
 
 #modes_destacats {
@@ -95,9 +101,45 @@ span {
 #grid_contacte {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    max-width: 1120px;
+    max-width: 700px;
     font-size: 19px;
-    gap: 0px;
-    margin-left: auto;
+    margin: auto;
     text-align: left;
+}
+
+#filtre_productes {
+    margin-top: 50px;
+}
+
+#filtre_productes > span:hover{
+    color: c93814;
+    text-decoration: line-through;
+}
+
+#amv {
+    font-size: 60;
+}
+
+h3 {
+    font-size: 25;
+}
+
+.preu {
+    font-size: 25;
+}
+
+#productes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: auto;
+    justify-self: center;
+    column-gap: 250px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    max-width: 350px;
 }
